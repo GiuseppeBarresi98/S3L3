@@ -15,6 +15,7 @@ window.onload = () => {
         console.log(e.target);
         e.target.classList.add("linethrough");
         elementList.appendChild(newbutton);
+        newbutton.innerText = "DELETE";
         newbutton.addEventListener("click", function (e) {
           e.target.parentElement.remove();
         });
