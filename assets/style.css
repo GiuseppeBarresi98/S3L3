@@ -54,3 +54,8 @@ li {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
+.linethrough {
+  text-decoration: line-through;
+  color: rebeccapurple;
+}
