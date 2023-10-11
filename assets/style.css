@@ -3,15 +3,17 @@ body {
 }
 
 header {
-  background-color: aquamarine;
+  background-color: orange;
   padding: 20px;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   color: black;
+  height: 30%;
 }
 main {
   text-align: center;
+  height: 70%;
 }
 
 h1 {
@@ -19,28 +21,33 @@ h1 {
 }
 
 #Task {
-  width: 70%;
+  width: 35%;
   padding: 10px;
   font-size: 20px;
   border: 1px solid black;
   display: inline-block;
-  margin-left: 40%;
+  margin: auto;
+  margin-top: 20px;
 }
-.elementi {
-  width: 60%;
+.contenitore {
+  width: 100%;
   text-align: center;
   margin-top: 20px;
+}
+.elementi {
+  background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
 }
 
 #my-button {
   font-size: 24px;
   padding: 20px 40px;
-  background-color: #007bff;
+  background-color: red;
   color: white;
   border: none;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 50%;
+  margin-bottom: 20px;
+
   border-radius: 8px;
 }
 ul {
@@ -53,11 +60,16 @@ li {
   font-size: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  width: 90%;
+  border: 1px solid black;
+  background-color: grey;
+  padding: 5px;
+  margin: auto;
 }
 
 .linethrough {
   text-decoration: line-through;
-  color: rebeccapurple;
+  color: red;
 }
 
 li > button {
