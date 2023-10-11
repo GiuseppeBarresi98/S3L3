@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.linethrough {
+  cursor: pointer;
+  text-decoration: line-through;
+}
